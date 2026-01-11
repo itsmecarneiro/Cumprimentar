@@ -1,7 +1,7 @@
 <?php
  function saudacao(): string
  {
-    $hora = 8;
+    $hora = date('H');
 
     if ($hora >= 0 AND $hora <= 5) {
         $saudacao = 'Boa Madrugada';
